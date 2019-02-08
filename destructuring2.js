@@ -14,9 +14,9 @@ let escola = {
     }
 }
 
-let {numero_estudantes, disciplinas: {portugues,matematica,ingles}} = escola
+let {numero_estudantes: n, disciplinas: {portugues : p,matematica : m,ingles : i}} = escola
 
-console.log(`Numero estudantes: ${numero_estudantes},
-Disciplinas: Portugues: ${portugues},
-Matemática: ${matematica},
-Inglês: ${ingles}`)
+console.log(`Numero estudantes: ${n},
+Disciplinas: Portugues: ${p},
+Matemática: ${m},
+Inglês: ${i}`)
