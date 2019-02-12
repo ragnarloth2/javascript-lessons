@@ -15,7 +15,7 @@ const carrinho = [
     '{ "nome" : "Lápis", "preço": 1 }',
     '{ "nome" : "Caderno", "preço" : 10.5 }',
     '{ "nome" : "Mochila", "preço" : 40.7 }',
-    '{ "nome" : "Apontador", "preço" : 1.5 }'
+    '{ "nome" : "Apontador", "preço" : 1.57 }'
 ]
 
 let toObjCallback = Json => JSON.parse(Json)
